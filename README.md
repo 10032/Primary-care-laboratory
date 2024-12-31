@@ -1,2 +1,1 @@
-# Quality-Control-Generation
-Used to generate quality control data for the laboratory without violating quality control rules
+由于基层检验科，质控太贵做不起，但是领导们又要检查，所以制作了这个一键生成合格质控。完全针对结果互认要求设计，并且生出的随机值不违反质控规则
