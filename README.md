@@ -23,15 +23,12 @@
 
 ## 贡献
 
-欢迎贡献代码和提出建议！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与项目。
+欢迎贡献代码和提出建议！
 
-## 许可证
-
-本项目采用 [MIT 许可证](LICENSE)。
 
 ## 联系
 
-如有任何问题或建议，请通过 [GitHub Issues](https://github.com/10032/Primary-care-laboratory/issues) 联系我们。
+如有任何问题或建议，请通过 [GitHub Issues]联系我。
 
 ---
 
