@@ -8,6 +8,13 @@
 - **快捷键触发**：用户可以设置快捷键，按下快捷键后程序将自动生成数据并输出到当前焦点处。
 - **输入验证**：程序会对用户输入的参数进行验证，确保输入的合法性。
 
+
+### 通过 GitHub Releases 安装
+
+1. 访问 [GitHub Releases](https://github.com/10032/Primary-care-laboratory/releases/tag/v0.0.01) 页面。
+2. 下载最新版本的运行。
+3. 双击打开，愉快使用。
+
 ## 界面
 ![主界面](https://github.com/user-attachments/assets/008d64d5-1939-442c-8c2b-4bf79e44cf90)
 ![例子](https://github.com/user-attachments/assets/eb22c4a4-b019-4f4e-b56f-45a9ef88c46b)
