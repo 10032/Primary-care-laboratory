@@ -21,48 +21,6 @@
 2. 下载最新版本的压缩包。
 3. 解压缩到您的本地目录。
 
-### 通过源码构建
-
-1. 克隆本仓库：
-   ```bash
-   git clone https://github.com/10032/Primary-care-laboratory.git
-   ```
-2. 进入项目目录：
-   ```bash
-   cd Primary-care-laboratory
-   ```
-3. 构建项目：
-   ```bash
-   mvn clean install
-   ```
-
-## 使用说明
-
-### 配置文件
-
-在 `config` 目录下，您可以找到 `qc_config.json` 文件，用于配置质控参数。以下是一个示例配置：
-
-```json
-{
-  "mean": 100,
-  "stdDev": 5,
-  "controlRules": ["13s", "22s"],
-  "numSamples": 30
-}
-```
-
-### 命令行使用
-
-1. 运行生成工具：
-   ```bash
-   java -jar primary-care-laboratory.jar -c config/qc_config.json
-   ```
-2. 生成的质控数据将保存在 `output/qc_data.csv` 文件中。
-
-### 集成到第三方软件
-
-将生成的 `qc_data.csv` 文件导入到您的第三方质控软件中，确保数据的一致性和准确性。
-
 ## 贡献
 
 欢迎贡献代码和提出建议！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与项目。
