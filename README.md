@@ -27,9 +27,14 @@
 
 ## 界面
 ![主界面](https://github.com/user-attachments/assets/008d64d5-1939-442c-8c2b-4bf79e44cf90)
-![数值](https://github.com/user-attachments/assets/8d6d49e6-4d3b-4d86-b810-5fdbdb8b51ac)
 ![例子](https://github.com/user-attachments/assets/eb22c4a4-b019-4f4e-b56f-45a9ef88c46b)
+![数值](https://github.com/user-attachments/assets/8d6d49e6-4d3b-4d86-b810-5fdbdb8b51ac)
 
+## 使用方法
+1. 打开软件，并设置对应参数。
+2. 点击开始监听，会监听对应快捷键。
+3. 按下快捷键，会生成对应的随机数，并调用键盘输入值，默认每一个值后面加入回车键。
+4. 自己审核数值，看是否违反检验科质控规则。一般情况下不会触发±1sd，如有问题，请提交错误报告。
 
 ## 联系
 
