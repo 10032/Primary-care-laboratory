@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/10032/Primary-care-laboratory?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/10032/Primary-care-laboratory?style=flat-square)
 
-**Primary Care Laboratory** 是一个用于生成符合现实质控规律的数值的工具。它可以帮助实验室在切换第三方质控软件时，生成逼真的质控数据，以便写入到新的系统中。
+**Primary Care Laboratory** 是一个用于生成符合现实质控规律的数值的工具。它可以帮助实验室在切换第三方质控软件时，生成逼真的质控数据，并写入质控软件中。
 
 ## 功能特性
 
