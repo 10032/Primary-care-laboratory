@@ -25,6 +25,11 @@
 
 欢迎贡献代码和提出建议！
 
+## 界面
+![主界面](https://github.com/user-attachments/assets/008d64d5-1939-442c-8c2b-4bf79e44cf90)
+![数值](https://github.com/user-attachments/assets/8d6d49e6-4d3b-4d86-b810-5fdbdb8b51ac)
+![例子](https://github.com/user-attachments/assets/eb22c4a4-b019-4f4e-b56f-45a9ef88c46b)
+
 
 ## 联系
 
