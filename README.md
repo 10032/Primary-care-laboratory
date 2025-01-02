@@ -18,8 +18,8 @@
 ### 通过 GitHub Releases 安装
 
 1. 访问 [GitHub Releases](https://github.com/10032/Primary-care-laboratory/releases/tag/v0.0.01) 页面。
-2. 下载最新版本的压缩包。
-3. 解压缩到您的本地目录。
+2. 下载最新版本的EXE文件。
+3. 直接运行。
 
 ## 贡献
 
@@ -39,6 +39,9 @@
 ## 联系
 
 如有任何问题或建议，请通过 [GitHub Issues]联系我。
+
+## 本程序用python语言
+本程序完全由ai编写，详细注释看源代码。
 
 ---
 
