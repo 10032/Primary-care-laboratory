@@ -117,9 +117,9 @@ class QCGeneratorGUI:
 
         # 基本统计信息显示框
         self.stats_label = ttk.Label(self.result_frame, text="基本统计信息:")
-        self.stats_label.grid(row=2, column=0, sticky=tk.W, pady=(10,0))
-        self.stats_text = scrolledtext.ScrolledText(self.result_frame, height=5, width=40)
-        self.stats_text.grid(row=3, column=0, sticky=(tk.W, tk.E), pady=(0,10))
+        self.stats_label.grid(row=0, column=1, sticky=tk.W, pady=(10,0))
+        self.stats_text = scrolledtext.ScrolledText(self.result_frame, height=10, width=40)
+        self.stats_text.grid(row=1, column=2, sticky=(tk.W, tk.E), pady=(0,10))
 
 
         # ---- 热键设置框架 ----  位置移到最下方, row=2
