@@ -90,7 +90,7 @@ class QCGeneratorGUI:
             check_button.grid(row=i, column=0, sticky=tk.W)
 
 
-        # ---- Levey-Jennings 图表框架 ----  位置移动到右侧, column=2
+        # ---- Levey-Jennings 图表框架 ---- 
         self.lj_chart_frame = LabelFrame(root, text="Levey-Jennings 质控图")
         self.lj_chart_frame.grid(row=0, column=2, sticky=(tk.W, tk.E, tk.N, tk.S), padx=10, pady=10) # column=2  移动到右侧, row 改为 0, 与 参数和规则框架 同行
         self.fig_lj, self.ax_lj = plt.subplots(figsize=(8, 5)) # 创建 Figure 和 Axes 对象
@@ -99,7 +99,7 @@ class QCGeneratorGUI:
         self.canvas_lj_widget.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 
 
-        # ---- 结果显示框架 ----  位置下移，row=1
+        # ---- 结果显示框架 ----  
         self.result_frame = ttk.Frame(root, padding=10)
         self.result_frame.grid(row=1, column=0, columnspan=3, sticky=(tk.W, tk.E, tk.N, tk.S), padx=10, pady=10) # row=1, columnspan=3, columnspan 改为 3 以跨越所有列
 
@@ -117,12 +117,12 @@ class QCGeneratorGUI:
 
         # 基本统计信息显示框
         self.stats_label = ttk.Label(self.result_frame, text="基本统计信息:")
-        self.stats_label.grid(row=0, column=1, sticky=tk.W, pady=(10,0))
+        self.stats_label.grid(row=0, column=2, sticky=tk.W, pady=(10,0))
         self.stats_text = scrolledtext.ScrolledText(self.result_frame, height=10, width=40)
         self.stats_text.grid(row=1, column=2, sticky=(tk.W, tk.E), pady=(0,10))
 
 
-        # ---- 热键设置框架 ----  位置移到最下方, row=2
+        # ---- 热键设置框架 ----  
         self.hotkey_frame = LabelFrame(root, text="热键设置")
         self.hotkey_frame.grid(row=2, column=0, columnspan=3, sticky=(tk.W, tk.E, tk.N, tk.S), padx=10, pady=10) # row=2, columnspan=3, columnspan 改为 3 以跨越所有列
 
@@ -145,12 +145,12 @@ class QCGeneratorGUI:
         self.status_label = ttk.Label(self.hotkey_frame, text="未监听快捷键 (已停止)")
         self.status_label.grid(row=1, column=0, columnspan=4, sticky=tk.W)
 
-        # Tooltip 函数 (保持不变)
+        # Tooltip 函数
         self.create_tooltip(self.bias_entry, "初始偏移量 (Bias):  质控数据整体的初始偏移程度。\n正值表示整体偏高，负值表示整体偏低。") # 为 初始偏移量 输入框 添加 Tooltip
         self.create_tooltip(self.drift_spinbox, "每日漂移率 (Drift Rate):  质控数据每日均值线性漂移的速率。\n正值表示均值每日递增，负值表示每日递减。") # 为 每日漂移率 数值微调框 添加 Tooltip
 
 
-    # Tooltip 函数 (保持不变)
+    # Tooltip 函数 
     def create_tooltip(self, widget, text):
         """为 Tkinter 组件创建工具提示."""
         tooltip = ToolTip(widget)  # 使用下面的 ToolTip 类
